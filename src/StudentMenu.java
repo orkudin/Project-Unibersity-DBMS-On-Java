@@ -38,18 +38,6 @@ public class StudentMenu extends Container {
             }
         });
 
-//        JButton subjectInfo = new JButton("INFORMATION ABOUT SUBJECT");
-//        subjectInfo.setBounds(150, 110, 200, 30);
-//        add(subjectInfo);
-//
-//        subjectInfo.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                Main.frame.studentMenu.setVisible(false);
-//                Main.frame.studentMenuSubjectInfo.setVisible(true);
-//            }
-//        });
-
         JButton averageGrade = new JButton("AVERAGE GRADE");
         averageGrade.setBounds(150, 150, 200, 30);
         add(averageGrade);
