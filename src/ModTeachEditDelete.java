@@ -60,8 +60,6 @@ public class ModTeachEditDelete extends Container {
 
                 PackageData pd = new PackageData("DELETE TEACHER", id);
                 Main.connect(pd);
-
-//                DBManager.deleteTeacher(id);
                 findTeacher.setText("User deleted");
             }
         });
