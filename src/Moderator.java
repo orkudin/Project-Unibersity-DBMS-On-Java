@@ -15,8 +15,4 @@ public class Moderator extends User implements Serializable {
         return getId() + " " + getPassword() + " " + getName() + " " + getSurname() + " " + getPhoneNumber();
     }
 
-//    @Override
-//    public String getUserData() {
-//        return getId() + " " +  getName() + " " + getSurname() + " " + getPhoneNumber();
-//    }
 }
