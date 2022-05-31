@@ -166,9 +166,7 @@ public class Main {
 
         Thread threadGrades = new Thread(MainFrame.studentMenuShowGrades);
         try{
-//            System.out.println(MainMenu.checkStudentMode);
             while(true){
-//                System.out.println(MainMenu.checkStudentMode);
                 if(MainMenu.checkStudentMode){
                     threadGrades.start();
                     break;
@@ -181,9 +179,7 @@ public class Main {
 
         Thread threadHW = new Thread(MainFrame.studentMenuShowHomework);
         try{
-//            System.out.println(MainMenu.checkStudentMode);
             while(true){
-//                System.out.println(MainMenu.checkStudentMode);
                 if(MainMenu.checkStudentMode){
                     threadHW.start();
                     break;
@@ -243,7 +239,7 @@ public class Main {
         return StudID;
     }
 
-    public static int getModeratorIndex(ArrayList<Moderator> moderators, Long moderatorID){//Поиск мдератора по айди с переводом в индекс массива
+    public static int getModeratorIndex(ArrayList<Moderator> moderators, Long moderatorID){//Поиск модератора по айди с переводом в индекс массива
         //Вводим 29220, он ищет данный айди в аррейлисте модераторов и выдаёт индекс
         int ModID = -1;
 
