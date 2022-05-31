@@ -49,15 +49,9 @@ public class ModTeachEditList extends Container {
                         conditionTextArea.setText("There is no teachers");
                     }
                     else{
-//                        String allTeachers = "";
-//                        for(int i = 0;i<teachers.size();i++){
-//                            allTeachers += teachers.get(i).toStringForModerator() + "\n\n";
-//                        }
 
                         PackageData pd = new PackageData("LIST ALL TEACHERS");
                         Main.connect(pd);
-
-//                        findTeacher.setText(allTeachers);
                         conditionTextArea.setText("Successful!");
                     }
                 }else{
@@ -70,8 +64,6 @@ public class ModTeachEditList extends Container {
 
                         PackageData pd = new PackageData("LIST ONE TEACHER", id);
                         Main.connect(pd);
-
-//                        findTeacher.setText(teacher.toStringForModerator());
                         conditionTextArea.setText("Successful!");
                     }
 
