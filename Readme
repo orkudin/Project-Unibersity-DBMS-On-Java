@@ -1,4 +1,5 @@
-Firstly, run "DBServer". After "Main"
+Firstly, restore "university.backup" in PostgreSQL. (in project (DBManager Class) login and password of PostgreSQL is "postgres")
+Secondly, run "DBServer". After run "Main"
 
 Moderator: 
 login: 1
